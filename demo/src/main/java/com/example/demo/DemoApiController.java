@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApiController {
 	@GetMapping("/demoapistring")
 	public String demoapistring() {
-		return "가나다라마바사";
+		return "아자차카타파하";
 	}
 
 	@GetMapping("/demoapi")
